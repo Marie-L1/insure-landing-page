@@ -1,0 +1,145 @@
+@use './variables' as *;
+@use './typography' as *;
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+};
+
+@mixin desktop {
+    @media (min-width: 1280px) {
+        @content;
+    }
+};
+
+
+@mixin page-header {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    font-family: "Inconsolata";
+
+    @include tablet {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+    }
+    @include desktop {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+    }
+}
+
+@mixin section-header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-family: "Inconsolata";
+
+    @include tablet {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    };
+    @include desktop {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+}
+
+@mixin subheader{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 600;
+    font-family: "Inconsolata";
+
+    @include tablet {
+        font-size: 1.5rem;
+        line-height: 1.375rem;
+    }
+    @include desktop {
+        font-size: 1.5rem;
+        line-height: 1.375rem;
+    }
+}
+
+@mixin body {
+    font-size: .8125rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-family: "Inconsolata";
+    
+    @include tablet {
+        font-size: .875rem;
+        line-height: 1.375rem;
+    }
+    @include desktop {
+        font-size: .875rem;
+        line-height: 1.375rem;
+    }
+
+}
+
+@mixin body-large{
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-family: "Inconsolata";
+    
+    @include tablet {
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+    }
+    @include desktop {
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+    }  
+}
+
+
+// FLEX BOX
+@mixin flex-row{
+    display: flex;
+    flex-flow: row;
+}
+
+@mixin flex-column{
+    display: flex;
+    flex-flow: column;
+}
+
+@mixin flex-column-align-center{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@mixin align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+@mixin justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin justifyContent-alignItems-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin justifyContent-alignContent-center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+@mixin justify-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+@mixin justify-between{
+    display: flex;
+    justify-content: space-between;
+}
