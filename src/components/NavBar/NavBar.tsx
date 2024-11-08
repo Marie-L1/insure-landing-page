@@ -18,14 +18,12 @@ function NavBar() {
         <img src={hambuger} />
       </button>
 
-      <ul className={`navbar__links ${menuOpen ? 'navbar__links--open' : ''}`}>
-        <li className="navbar__link"><a href="#home">Home</a></li>
-        <li className="navbar__link"><a href="#about">About</a></li>
-        <li className="navbar__link"><a href="#services">Services</a></li>
-        <li className="navbar__link"><a href="#contact">Contact</a></li>
+      <ul className={`navbar__links ${menuOpen ? "navbar__links--open" : ""}`}>
+        <li className="navbar__link">HOW WE WORK</li>
+        <li className="navbar__link">BLOG</li>
+        <li className="navbar__link">ACCOUNT</li>
+        <li className="navbar__link">VIEW PLANS</li>
       </ul>
-
-
     </nav>
   )
 }
