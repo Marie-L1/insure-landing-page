@@ -5,7 +5,6 @@ import Work from "./components/Work/Work";
 import Footer from "./components/Footer/Footer";
 
 function App() {
-
   return (
     <>
     <NavBar />
