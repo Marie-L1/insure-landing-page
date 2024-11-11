@@ -1,3 +1,4 @@
+import "./App.scss";
 import NavBar from "./components/NavBar/NavBar";
 import Hero from "./components/Hero/Hero";
 import Different from "./components/Different/Different";
