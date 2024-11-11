@@ -28,13 +28,11 @@
     &--open {
       display: flex;
       flex-direction: column;
-      position: absolute;
       background-color: $primary-dark;
       color: $primary-light;
       padding: 1rem;
       width: 100vw;
       height: 100vh;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
   }
 
