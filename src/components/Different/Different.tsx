@@ -6,7 +6,7 @@ import person from "../../assets/images/icon-people-first.svg";
 function Different() {
   return (
     <section className="different">
-      <h1>We're different</h1>
+      <h1 className="different__main-title">We're different</h1>
       <div className="different__wrapper">
       <img className="different__img" src={snappy} />
       <h2 className="different__title">Snappy Process</h2>
