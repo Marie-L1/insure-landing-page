@@ -8,10 +8,7 @@
     margin-bottom: 130px;
 
     &__main-title{
-        font-family: serif display;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 48px;
+        @include section-header;
         border-top: 1px solid $purple;
         padding-top: 60px;
         text-align: center;
@@ -31,17 +28,11 @@
         height: 86px;
     }
     &__title{
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 39px;
+        @include subheader;
     }
     &__text{
+        @include body;
         color: $primary-grey;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        display: flex;
-        align-items: center;
         text-align: center;
     }
 }
