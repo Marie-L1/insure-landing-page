@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     padding: 80px 10px;
-    margin: 30px 15px;
+    margin: 30px 15px 150px 15px;
     height: 330px;
 
     &__title{
@@ -33,4 +33,6 @@
         width: 160px;
         padding: 15px 0;
     }
+    @include tablet{}
+    @include desktop{}
 }
