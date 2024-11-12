@@ -60,4 +60,49 @@
     &__list-item{
         @include footer-btns;
     }
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+
+        &__top-wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: -80px;
+            margin-bottom: 30px;
+            margin-left: 1200px;
+            gap: 800px;
+        }
+        &__links{
+            display: flex;
+            gap: 10px;
+            z-index: 3;
+            margin-bottom: 1px;
+        }
+        &__link{
+            width: 24px;
+            height: 24px;
+        }
+        &__swirl{
+            position: relative;
+            top: 20px;
+            right: 700px;
+            z-index: 0;
+        }
+        &__bottom-wrapper{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            gap: 200px;
+            margin-right: 110px;
+        }
+        &__list{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+    }
 }
