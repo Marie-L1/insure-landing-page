@@ -1,3 +1,63 @@
 @use '../../styles/variables' as *;
 @use '../../styles/typography' as *;
 @use '../../styles/mixins' as *;
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-light;
+    padding: 60px 20px;
+
+    &__top-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #DADADA;
+    }
+    &__logo{
+        height: 18px;
+        width: 111px;
+        z-index: 3;
+    }
+    &__links{
+        display: flex;
+        gap: 10px;
+        z-index: 3;
+        margin-bottom: -165px;
+    }
+    &__link{
+        width: 24px;
+        height: 24px;
+    }
+    &__swirl{
+        position: relative;
+        top: -36px;
+        z-index: 0;
+    }
+    &__bottom-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        list-style: none;
+    }
+    &__list-title{
+        @include footer-btns;
+        color: $primary-grey;
+        padding-bottom: 10px;
+    }
+    &__list-item{
+        @include footer-btns;
+    }
+}
