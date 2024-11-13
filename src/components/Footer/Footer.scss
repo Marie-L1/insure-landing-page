@@ -63,6 +63,7 @@
     @include tablet{
         display: flex;
         flex-direction: column;
+        padding: 120px 20px;
 
         &__top-wrapper{
             display: flex;
@@ -71,8 +72,8 @@
             justify-content: space-around;
             margin-top: -80px;
             margin-bottom: 30px;
-            margin-left: 1200px;
-            gap: 800px;
+            gap: 850px;
+            padding-bottom: 30px;
         }
         &__links{
             display: flex;
@@ -96,7 +97,7 @@
             align-items: center;
             justify-content: space-around;
             gap: 200px;
-            margin-right: 110px;
+            margin-right: 195px;
         }
         &__list{
             display: flex;
