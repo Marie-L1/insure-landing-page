@@ -6,8 +6,11 @@
     color: $primary-light;
     margin-bottom: 150px;
 
-    &__img{
+    &__img-mobile{
         width: 100%;
+    }
+    &__img-desktop{
+        display: none;
     }
     &__content{
         display: flex;
@@ -56,5 +59,12 @@
     }
     @include desktop{
 
+        &__img-mobile{
+            display: none;
+        }
+        &__img-desktop{
+            width: 540px;
+            height: 650px;
+        }
     }
 }

@@ -1,12 +1,14 @@
 import "./Hero.scss"
-import heroImg from "../../assets/images/image-intro-mobile.jpg"
+import heroImg1 from "../../assets/images/image-intro-mobile.jpg"
+import heroImg2 from "../../assets/images/image-intro-desktop.jpg";
 import swirl1 from "../../assets/images/bg-pattern-intro-left-mobile.svg"
 import swirl2 from "../../assets/images/bg-pattern-intro-right-mobile.svg"
 
 function Hero() {
   return (
     <section className="hero">
-      <img className="hero__img" src={heroImg} />
+      <img className="hero__img-mobile" src={heroImg1} />
+      <img className="hero__img-desktop" src={heroImg2} />
 
       <img className="hero__swirl-top" src={swirl1} />
       <div className="hero__content">
