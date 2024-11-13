@@ -7,7 +7,7 @@
     margin-bottom: 150px;
 
     &__img-mobile{
-        width: 100%;
+        width: 100vw;
     }
     &__img-desktop{
         display: none;
@@ -25,9 +25,6 @@
         @include section-header;
         padding: 20px 10px;
     }
-    &__title-br{
-        @include section-header;
-    }
     &__text{
         @include body;
         display: flex;
@@ -44,17 +41,26 @@
         @include footer-btns;
         margin-top: 40px;
     }
-    &__swirl-top{
+    &__swirl-top-mobile{
         margin-top: -4px;
-
     }
-    &__swirl-bottom{
+    &__swirl-bottom-mobile{
         position: absolute;
         left: 250px;
-        bottom: -450px;
+        bottom: -500px;
+    }
+    &__swirl-top-desktop, &__swirl-bottom-desktop{
+        display: none;
     }
 
     @include tablet{
+        &__img-mobile{
+            display: none;
+        }
+        &__img-desktop{
+            width: 540px;
+            height: 650px;
+        }
 
     }
     @include desktop{
@@ -63,8 +69,37 @@
             display: none;
         }
         &__img-desktop{
+            display: block;
+            position: absolute;
             width: 540px;
             height: 650px;
+            left: 735px;
+            top: 185px;
         }
+        &__content{
+            align-items: flex-start;
+            padding: 0px 750px 0 100px;
+            width: 100vw;
+            height: 600px;
+            margin-top: 0;
+            margin-bottom: 300px;
+        }
+        &__swirl-top-desktop{
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 510px;
+            // bottom: -100px;
+        }
+        &__swirl-bottom-desktop{
+            display: block;
+            position: absolute;
+            right: -30px;
+            bottom: 170px;
+        }
+         &__swirl-top-mobile, &__swirl-bottom-mobile{
+            display: none;
+        }
+    
     }
 }
