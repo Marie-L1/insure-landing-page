@@ -34,7 +34,7 @@ function NavBar() {
         <li className="navbar__link">HOW WE WORK</li>
         <li className="navbar__link">BLOG</li>
         <li className="navbar__link">ACCOUNT</li>
-        <li className="navbar__link">VIEW PLANS</li>
+        <li className="navbar__link-btn">VIEW PLANS</li>
       </ul>
     </nav>
   );

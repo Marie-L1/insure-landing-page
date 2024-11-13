@@ -53,4 +53,36 @@
       box-shadow: none;
     }
   }
+  @include desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 15px;
+
+    &__toggle{
+      display: none; 
+    }
+
+    &__links{
+      display: flex; 
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    &__link{
+      @include footer-btns;
+      color: $primary-grey;
+    }
+    &__link-btn{
+      @include footer-btns;
+      background-color: $primary-light;
+      border: 1.5px solid $primary-dark;
+      width: 146px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }
