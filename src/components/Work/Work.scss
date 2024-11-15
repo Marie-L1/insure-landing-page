@@ -8,9 +8,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px 10px;
-    margin: 30px 15px 150px 15px;
-    height: 330px;
+    padding: 5rem .625rem;
+    margin: 1.875rem .9375rem 9.375rem .9375rem;
+    height: 20.625rem;
 
     &__title{
         @include work-font;
@@ -21,10 +21,10 @@
     &__btn{
         @include footer-btns;
         background-color: $primary-dark;
-        border: $primary-light 1.5px solid;
+        border: $primary-light .0938rem solid;
         color: $primary-light;
-        width: 160px;
-        padding: 15px 0;
+        width: 10rem;
+        padding: .9375rem 0;
 
         &:hover{
             background-color: $primary-light;
@@ -32,13 +32,13 @@
         }
     }
     @include tablet{}
-    @include desktop{  display: flex;
-        flex-direction: row;
+    @include desktop{  
+        @include flex-row;
         align-items: center;
         justify-content: center;
-        padding: 80px 10px;
-        height: 250px;
-        margin: 110px 150px;
+        padding: 5rem .625rem;
+        height: 15.625rem;
+        margin: 6.875rem 9.375rem;
     
         &__title{
             @include work-font;
@@ -47,6 +47,6 @@
             align-self: flex-start;
         }
         &__btn{
-            width: 160px;
+            width: 10rem;
         }}
 }

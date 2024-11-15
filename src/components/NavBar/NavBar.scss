@@ -21,8 +21,7 @@
     display: block;
   }
   &__full-screen {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: flex-start;
     align-items: center;
     background-color: $primary-light;
@@ -30,7 +29,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 80px;
+    height: 5rem;
     z-index: 10;
     padding: 1.875rem 0.9375rem;
   }
@@ -58,8 +57,7 @@
     display: none;
 
     &--open {
-      display: flex;
-      flex-direction: column;
+      @include flex-column;
       justify-content: center;
       align-items: center;
       background-color: $primary-dark;
@@ -72,12 +70,11 @@
       left: 0;
       z-index: 5;
       @include menu;
-      gap: 20px;
+      gap: 1.25rem;
     }
   }
   &__swirl{
-    margin-bottom: -150px;
-    margin-top: 100px;
+    margin: 6.25rem 0 -9.375rem 0;
     width: 100vw;
   }
   &__link-btn{
@@ -137,8 +134,7 @@
     }
 
     &__links{
-      display: flex; 
-      flex-direction: row;
+      @include flex-row;
       justify-content: center;
       align-items: center;
       gap: 20px;

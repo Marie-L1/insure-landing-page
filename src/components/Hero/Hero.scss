@@ -4,7 +4,7 @@
 
 .hero{
     color: $primary-light;
-    margin-bottom: 150px;
+    margin-bottom: 9.375rem;
 
     &__img-mobile{
         width: 100vw;
@@ -13,17 +13,16 @@
         display: none;
     }
     &__content{
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         justify-content: center;
         align-items: center;
-        padding: 80px 40px;
+        padding: 5rem 2.5rem;
         background-color: $secondary-dark;
-        margin-top: -175px;
+        margin-top: -10.9375rem;
     }
     &__title{
         @include section-header;
-        padding: 20px 10px;
+        padding: 1.25rem .625rem;
     }
     &__text{
         @include body;
@@ -33,13 +32,13 @@
 
     }
     &__btn{
-        width: 146px;
-        height: 40px;
-        border: $primary-light 1px solid;
+        width: 9.125rem;
+        height: 2.5rem;
+        border: $primary-light .0625rem solid;
         background-color: $secondary-dark;
         color: $primary-light;
         @include footer-btns;
-        margin-top: 40px;
+        margin-top: 2.5rem;
 
         &:hover{
             background-color: $primary-light;
@@ -47,12 +46,12 @@
         }
     }
     &__swirl-top-mobile{
-        margin-top: -4px;
+        margin-top: -0.25rem;
     }
     &__swirl-bottom-mobile{
         position: absolute;
-        left: 250px;
-        bottom: -500px;
+        left: 15.625rem;
+        bottom: -31.25rem;
     }
     &__swirl-top-desktop, &__swirl-bottom-desktop{
         display: none;
@@ -63,8 +62,8 @@
             display: none;
         }
         &__img-desktop{
-            width: 540px;
-            height: 650px;
+            width: 33.75rem;
+            height: 40.625rem;
         }
     }
     @include desktop{
@@ -75,18 +74,18 @@
         &__img-desktop{
             display: block;
             position: absolute;
-            width: 540px;
-            height: 650px;
-            left: 735px;
-            top: 185px;
+            width: 33.75rem;
+            height: 40.625rem;
+            left: 45.9375rem;
+            top: 11.5625rem;
         }
         &__content{
             align-items: flex-start;
-            padding: 0px 750px 0 100px;
+            padding: 0 46.875rem 0 6.25rem;
             width: 100vw;
-            height: 600px;
+            height: 37.5rem;
             margin-top: 0;
-            margin-bottom: 300px;
+            margin-bottom: 18.75rem;
         }
         &__swirl-top-desktop{
             display: block;
@@ -98,8 +97,8 @@
         &__swirl-bottom-desktop{
             display: block;
             position: absolute;
-            right: -28px;
-            bottom: 170px;
+            right: -1.75rem;
+            bottom: 10.625rem;
         }
          &__swirl-top-mobile, &__swirl-bottom-mobile{
             display: none;
