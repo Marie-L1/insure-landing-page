@@ -11,12 +11,12 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-Coming soon!
-
-
-### Links
-Live Site URL: Coming soon
+### Photos
+![Mobile View](../landing-page/src/assets/images/insure-1.png)
+![Mobile View](../landing-page/src/assets/images/insure-2.png)
+![Mobile View](../landing-page/src/assets/images/insure-3.png)
+![Mobile View](../landing-page/src/assets/images/insure-4.png)
+![Mobile View](../landing-page/src/assets/images/insure-5.png)
 
 
 ### Built with
@@ -32,8 +32,15 @@ Live Site URL: Coming soon
 
 
 ### What I learned
+Although I didn't learn any new technologies from this project, I was able to reinforce and apply skills I've been practicing. Here's a breakdown:
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+- **React**: Used React for the project, which is my go-to for building user interfaces. It was a great opportunity to further develop my knowledge of React's component-based architecture and hooks.
+  
+- **TypeScript**: Although it wasn't necessary for the project, I decided to implement TypeScript for practice. It helped me better understand static typing and type safety in JavaScript, which is useful for scaling up projects.
+
+- **Sass**: Sass remains my preferred CSS preprocessor, and I used it extensively to manage styles for this project. This allowed me to utilize features like nesting, variables, and mixins to make the styling process more efficient.
+
+Overall, it was a great practice project for improving my React development workflow and gaining more confidence in using TypeScript and Sass together.
 
 ## Author
 
@@ -43,4 +50,4 @@ Live Site URL: Coming soon
 
 ## Acknowledgments
 
-<!-- This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+I'd like to thank the Frontend Queen group for sharing this Frontend Mentor challenge. 
