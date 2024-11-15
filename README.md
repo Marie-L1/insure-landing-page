@@ -12,11 +12,11 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Photos
-![Mobile View](../landing-page/src/assets/images/insure-1.png)
-![Mobile View](../landing-page/src/assets/images/insure-2.png)
-![Mobile View](../landing-page/src/assets/images/insure-3.png)
-![Mobile View](../landing-page/src/assets/images/insure-4.png)
-![Mobile View](../landing-page/src/assets/images/insure-5.png)
+![Mobile View](./src/assets/images/insure-1.png)
+![Mobile View](./src/assets/images/insure-2.png)
+![Mobile View](./src/assets/images/insure-3.png)
+![Mobile View](./src/assets/images/insure-4.png)
+![Mobile View](./src/assets/images/insure-5.png)
 
 
 ### Built with
