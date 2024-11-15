@@ -35,7 +35,7 @@
     &__btn{
         width: 146px;
         height: 40px;
-        border: $primary-light 1px solid;
+        // border: $primary-light 1px solid;
         background-color: $secondary-dark;
         color: $primary-light;
         @include footer-btns;
@@ -61,7 +61,6 @@
             width: 540px;
             height: 650px;
         }
-
     }
     @include desktop{
 

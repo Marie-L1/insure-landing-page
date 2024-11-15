@@ -4,7 +4,7 @@ import facebook from "../../assets/images/icon-facebook.svg";
 import twitter from "../../assets/images/icon-twitter.svg";
 import pinterest from "../../assets/images/icon-pinterest.svg";
 import instagram from "../../assets/images/icon-instagram.svg";
-// import swirl  from "../../assets/images/bg-pattern-footer-mobile.svg";
+import swirl  from "../../assets/images/bg-pattern-footer-mobile.svg";
 
 
 function Footer() {
@@ -18,7 +18,7 @@ function Footer() {
           <img className="footer__link" src={pinterest} alt="pinterest logo" />
           <img className="footer__link" src={instagram} alt="instagram logo" />   
         </div>
-        {/* <img className="footer__swirl" src={swirl} alt="swirl" /> */}
+        <img className="footer__swirl" src={swirl} alt="swirl" />
       </div>
       <div className="footer__bottom-wrapper">
         <ul className="footer__list">
