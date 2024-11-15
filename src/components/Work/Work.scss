@@ -25,6 +25,11 @@
         color: $primary-light;
         width: 160px;
         padding: 15px 0;
+
+        &:hover{
+            background-color: $primary-light;
+            color: $secondary-dark;
+        }
     }
     @include tablet{}
     @include desktop{  display: flex;

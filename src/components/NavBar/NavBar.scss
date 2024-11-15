@@ -90,6 +90,12 @@
     align-items: center;
     justify-content: center;
     @include menu;
+
+    &:hover{
+      background-color: $primary-light;
+      border: .0938rem solid $primary-dark;
+      color: $primary-dark;
+    }
   }
   &__link {
     text-decoration: none;
